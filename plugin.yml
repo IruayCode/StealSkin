@@ -1,0 +1,15 @@
+name: StealSkin
+author: Iruay
+version: 1.0.0
+main: StealSkin\Main
+api: [5.0.0]
+commands:
+  stealskin:
+    description: "Voler le skin d'un autre joueur."
+    usage: "/stealskin <joueur>"
+    permission: stealskin.use
+    permission-message: "Vous n'avez pas la permission d'utiliser cette commande."
+permissions:
+  stealskin.use:
+    description: "Permet de voler le skin d'un autre joueur."
+    default: op
