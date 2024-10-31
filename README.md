@@ -1,3 +1,3 @@
 # StealSkin
-Permet de voler le skin d'un joueur.
+to steal a player's skin in game.
 Usage : /stealskin
